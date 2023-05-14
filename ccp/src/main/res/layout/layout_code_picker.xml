@@ -30,15 +30,20 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 >
-
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/image_flag"
-                    android:layout_width="wrap_content"
-                    android:layout_height="18dp"
-                    android:layout_margin="0.5dp"
-                    android:adjustViewBounds="true"
-                    app:srcCompat="@drawable/flag_india"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/flag_india"
                     />
+<!--                <ImageView-->
+<!--                    android:id="@+id/image_flag"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="18dp"-->
+<!--                    android:layout_margin="0.5dp"-->
+<!--                    android:background="@drawable/flag_bg_circle"-->
+<!--                    app:srcCompat="@drawable/flag_india"-->
+<!--                    />-->
             </LinearLayout>
         </LinearLayout>
 
